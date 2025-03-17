@@ -1,0 +1,34 @@
+#outer-box{
+    width: 100%;
+    height: 250px;
+    background-color: gray;
+
+}
+
+.one{
+    float: left;
+    width: 50%;
+    background-color: white;
+}
+
+.two{
+    float: right;
+    width: 50%;
+    background-color: white;
+}
+
+#Add-img{
+    padding: 15px;
+}
+
+#below{
+   display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    }
+
+    #mid-below{
+        display: flex;
+        flex-direction: row;
+        background-color: wheat;
+    }
